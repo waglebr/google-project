@@ -1,0 +1,126 @@
+body {
+    font-family: arial;
+    font-size: small;
+}
+
+a {
+    margin: 13.5px;
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    background-color: #f2f2f2;
+}
+
+#nav-top-right {
+    line-height: 40px;
+    float: right;
+    margin-right: 11.5px;
+}
+
+#nav-top-right a {
+    margin: 16px 18.5px 0 0;
+}
+
+#apps {
+    position: relative;
+    display: inline-block;
+    width: 16.1px;
+    height: 16.1px;
+    background-image: url(/apps.png);
+    background-size: 16.1px 16.1px;
+    top: 3.5px;
+}
+
+#apps:hover {
+    background-image: url(/apps-hover.png);
+    opacity: 0.85;
+}
+
+#sign-in {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+}
+
+#logo {
+    display: block;
+    position: absolute;
+    top: 31.9vh;
+    left: 38.7vw;
+    height: 92px;
+    width: 272px;
+}
+
+#search-bar {
+    position: absolute;
+    display: block;
+    top: 51.2vh;
+    left: 29.7vw;
+    height: 46px;
+    width: 485px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 3px #C8C8C8;
+    background: white;
+}
+
+#search-bar:hover {
+    box-shadow: 0 3px 5px #C8C8C8;
+}
+
+.button {
+    margin: 2.2px;
+    display: inline-block;
+    position: relative;
+    top: 60.9vh;
+    left: 38.3vw;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-weight: bold;
+    height: 37px;
+    padding: 0 16px 0 16px;
+    font-size: inherit;
+}
+
+.button:hover {
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+footer {
+    box-shadow: 1px 0 1px #999;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    display: block;
+}
+
+#nav-bottom-right {
+    float: right;
+    display: inline-block;
+    margin-right: 16.5px;
+}
+
+#nav-bottom-left {
+    display: inline-block;
+    padding-left: 16.5px;
+}
