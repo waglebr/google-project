@@ -32,13 +32,13 @@ input {
     display: inline-block;
     width: 16.1px;
     height: 16.1px;
-    background-image: url(/apps.png);
+    background-image: url(apps.png);
     background-size: 16.1px 16.1px;
     top: 3.5px;
 }
 
 #apps:hover {
-    background-image: url(/apps-hover.png);
+    background-image: url(apps-hover.png);
     opacity: 0.85;
 }
 
